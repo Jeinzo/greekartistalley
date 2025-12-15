@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 1em;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+.art-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+
+.art-grid img {
+  max-width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
